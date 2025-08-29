@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana,Arial,Helvetica, sans-serif;
+    font-size: 12px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
+#mainContainer{
+    max-width: 1010px; 
+    margin: 0 auto;
+}
+#logoAList{
+    padding: 18px 0px 18px 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#logoAText{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 215px;
+    padding-left: 5px;
+    margin-right: 15px;
+}
+#InzeratyTvoje{
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+}
+#InzeratyTvoje b {
+    margin-right: 15px;
+}
+#pridat{
+    background-color: #FFD9BF;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #E4C2AB;
+}
+#searchBar{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6600;
+    border: 1px solid #BF4C00;
+    margin: 3px;
+    margin-bottom: 35px;
+    padding: 2px;
+    border-radius: 3px;
+}
+input{
+    margin: 5px 5px 5px 5px;
+    padding: 1px;
+}
+label{
+    margin: 0px 3px 0 3px;
+    color: white;
+    font-weight: bold;
+}
+#searchBar b{
+    color: white;
+}
+#searchInput{
+    width: 150px;
+}
+#rubrikaSelect{
+    padding: 3px;
+}
+#lokalitaInput{
+    width: 60px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#okoliInput{
+    width: 30px;
+}
+#odCenaInput{
+    width: 70px;
+}
+#doCenaInput{
+    width: 70px;
+}
+#hledatButton{
+    padding: 3px 6px 3px 6px;
+}
+.searchBarInputs{
+    border: 1px solid #393939;
+    border-radius: 3px;
+}
+.iconRow{
+    display: flex;
+}
+.iconCell{
+    text-align: center;
+    padding: 7px;
+    flex-grow: 1;
+}
+.imagesRubrika{
+    width: 54px;
+    height: 60px;
+    margin-top: 10px;
+}
+.rightBorder{
+    border-right: 1px dashed #dddddd;
+}
+@media (max-width: 994px) {
+    #logoATextDescription {
+        display: none;
+    }
+}
