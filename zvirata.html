@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="max-width: 1500px; margin: 0 auto;" id="containerZvirata">
+        <header>
+        <div id="logoAList">
+            <div id="logoAText">
+                <img src="img/bazos.svg" id="logo" alt="Bazos Logo">
+                <p id="logoATextDescription"><b>... interce pro každého</b></p>
+            </div>
+            <div id="InzeratyTvoje">
+                <b style="padding: 5px;"><a href="">Oblíbené inzeráty</a></b>
+                <b style="padding: 5px;"><a href="">Moje inzeráty</a></b>
+                <b id="pridat"><a href="#">Přidat inzerát</a></b>
+            </div>
+        </div>
+    </header>
+    <div style="margin-bottom: 10px;" id="searchBar">
+        <div id="searchBarContainer">
+            <label for="searchInput" id="searchLabel">Co:</label>
+            <input class="searchBarInputs" type="text" id="searchInput">
+            <select class="searchBarInputs" name="rubrika" id="rubrikaSelect">
+                <option value="vsechny">Vsechny rubriky</option>
+                <option value="auto">Auto</option>
+                <option value="deti">Děti</option>
+                <option value="dumAZahrada">Dům a zahrada</option>
+                <option value="elektro">Elektro</option>
+                <option value="foto">Foto</option>
+                <option value="hudba">Hudba</option>
+                <option value="knihy">Knihy</option>
+                <option value="mobily">Mobily</option>
+            </select>
+            <label for="lokalitaInput" id="lokalitaLabel">Lokalita:</label>
+            <input class="searchBarInputs" type="text" id="lokalitaInput">
+            <label for="okoliInput" id="okoli">Okolí:</label>
+            <input class="searchBarInputs" type="number" id="okoliInput">
+            <b>km</b>
+            <label for="odCenaInput" id="forCenaLabel">Cena od:</label>
+            <input class="searchBarInputs" type="number" id="odCenaInput">
+            <b>-</b>
+            <label for="doCenaInput" id="forDoCenaLabel">do:</label>
+            <input class="searchBarInputs" type="number" id="doCenaInput">
+            <b>Kč</b>
+            <button class="searchBarInputs" id="hledatButton">Hledat</button>
+        </div>
+    </div>
+    <div style="padding-left: 20px; margin-bottom: 25px;" id="navigation">
+        <p><a href="index.html">Hlavní stránka</a> > <b>Zvířata</b></p>
+    </div>
+    <div id="mainFlex">
+        <div id="leftSidebar">
+            <div style="border-right: 1px dashed #dddddd;
+                        padding-right: 10px;">
+                <div style="color: white; 
+                            padding: 5px; 
+                            text-align: center;
+                            background-color: #FF6600;
+                            border: 1px solid #883702;
+                            border-radius: 5px 5px 0 0;">
+                    <b>Kategorie</b>
+                </div>
+                <div style="background-color: #f9ebc0;
+                            padding: 5px;">
+                    <div style="
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+                            ">
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    <a href="#">Akvarijni ryby</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding-left: 10px;" id="mainContent">
+            Inzeraty
+        </div>
+    </div>
+    </div>
+</body>
+</html>
